@@ -1,0 +1,73 @@
+html,body{
+    height: 100%;
+    background-image: linear-gradient(#fbc7d4,#9796f0);
+
+}
+
+.formbackground{
+    height:100%; 
+    margin:auto; 
+    background-color:#ffeFeF; 
+    width:33%;
+    border-radius:10%;
+}
+
+.todo{
+    font-size: 60px; 
+    text-align: center; 
+    font-weight:900; 
+    margin-bottom: 10%;
+   padding-top: 10%;
+}
+
+input[type=text]{
+    width: 65%;
+    padding: 2% 0;
+    border-radius: 4px;
+    border:1px solid #ccc;
+    position: relative;
+    margin-left: 5%;
+}
+.ADD{
+    width: 20%;
+    padding: 1.5% 0;
+    background-color: #D499B9;
+    border: none;
+    color: white;
+    float: right;
+    position: relative;
+    top:40%;
+    text-align: center;
+    left:-5%;
+    border-radius: 10px;
+}
+
+ul{
+    list-style:none;
+    
+}
+
+ul li{
+    background-color: #d6ecfa; 
+    padding-bottom: 4%;
+     width: 90%;
+     position: relative;
+     font-size: 20px;
+}
+
+.del{
+    float: right;
+    padding: 2%;
+    width:5%;
+    text-align: center;
+}
+li:hover{
+    background-color: #ABD0CE;}
+span.del:hover{
+    background-color: #D499B9;
+}
+
+.text{
+    
+    padding-top: 10%;
+}

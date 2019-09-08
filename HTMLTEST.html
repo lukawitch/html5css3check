@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="CSSTEST.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--여기에다가 주석문구를 넣어주세요-->
+        <style>
+          tr.hovertest:hover {background-color:#000;}
+          tr.Stripedtest:nth-child(even) {background-color: #f2f2f2;}
+        </style>
+</head>
+<body>
+    <table style="  border: 1px solid black;">
+        <tr>
+          <th style="  border: 1px solid black;">Firstname</th>
+          <th style="  border: 1px solid black;">Lastname</th>
+        </tr>
+        <tr>
+          <td style="  border: 1px solid black;">Peter</td>
+          <td style="  border: 1px solid black;">Griffin</td>
+        </tr>
+        <tr>
+          <td style="  border: 1px solid black;">Lois</td>
+          <td style="  border: 1px solid black;">Griffin</td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th style="    border-bottom: 1px solid #ddd; ">Firstname</th>
+          <th style="    border-bottom: 1px solid #ddd;">Lastname</th>
+        </tr>
+        <tr>
+          <td style="   border-bottom: 1px solid #ddd;">Peter</td>
+          <td style="   border-bottom: 1px solid #ddd;">Griffin</td>
+        </tr>
+        <tr>
+          <td style=" border-bottom: 1px solid #ddd;">Lois</td>
+          <td style="   border-bottom: 1px solid #ddd;">Griffin</td>
+        </tr>
+      </table>
+
+      <table>
+        <tr class="hovertest">
+          <th style="    border-bottom: 1px solid #ddd; ">Firstname</th>
+          <th style="    border-bottom: 1px solid #ddd;">Lastname</th>
+        </tr>
+        <tr class="hovertest">
+          <td style="   border-bottom: 1px solid #ddd;">Peter</td>
+          <td style="   border-bottom: 1px solid #ddd;">Griffin</td>
+        </tr>
+        <tr class="hovertest">
+          <td style=" border-bottom: 1px solid #ddd;">Lois</td>
+          <td style="   border-bottom: 1px solid #ddd;">Griffin</td>
+        </tr>
+      </table>
+
+      <table>
+            <tr class="Stripedtest">
+              <th style="    border-bottom: 1px solid #ddd; ">Firstname</th>
+              <th style="    border-bottom: 1px solid #ddd;">Lastname</th>
+            </tr>
+            <tr class="Stripedtest">
+              <td style="   border-bottom: 1px solid #ddd;">Peter</td>
+              <td style="   border-bottom: 1px solid #ddd;">Griffin</td>
+            </tr>
+            <tr class="Stripedtest">
+              <td style=" border-bottom: 1px solid #ddd;">Lois</td>
+              <td style="   border-bottom: 1px solid #ddd;">Griffin</td>
+            </tr>
+          </table>
+</body>
+</html>
