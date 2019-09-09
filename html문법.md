@@ -1,5 +1,5 @@
-﻿CSS문법은 여기로 [css](./css문법.md)
-
+﻿CSS문법은 여기로 [css](./css문법.md)  
+예시는 여기로 [html](./htmlmd.html)
  # HTML 문법
  ## HTML5 설정
  html5를 사용하려면 문구 제일 위에다가 
@@ -155,11 +155,7 @@ block 방식으로 배열이되는 코드이다. 진짜 자주 사용되는 코�
 
 ### inline과 block의차이
 inline은 옆으로 늘여놓는거고 block는 위아래로 쌓는다고 생각하면 될것이다.  
-예시를 들면 이러하다.
-<div style="background-color:pink">div 태그사용</div>
-<div style="background-color:blue; color:white">div 태그사용</div>
-<span style="background-color:pink">span 태그사용</span>
-<span style="background-color:blue; color:white">span 태그사용</span>
+
 
 ### Sementic 태그
 레이아웃만을 위해 사용되는 태그이다. 태그자체에는 큰 의미가있지는 않다.  
@@ -343,10 +339,6 @@ file을 가져오는 버튼을 생성한다.
 ```  
 row:세로길이  
 col:가로길이  
-
-<textarea rows="4" cols="50">
-여기에다가 내용을 입력하시면 됩니다.
-</textarea>  
 
 ### Table 태그
 테이블을 만들어주는 태그이다. 기본적인 틀은 이것이다.  
