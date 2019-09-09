@@ -138,12 +138,7 @@ width와 height속성이 없으면 이미지 원본크기가 그대로 나온다
 <h5>h5</h5>
 <h6>h6</h6>
 ```  
-<h1>h1</h1>
-<h2>h2</h2>
-<h3>h3</h3>
-<h4>h4</h4>
-<h5>h5</h5>
-<h6>h6</h6>
+
 
 ### span 태그 
 inline 방식으로 배열이되는 코드이다.  
@@ -275,21 +270,21 @@ type종류에는 여러가지가 있다.
 ```html
 <input type="text" name="test" value="test">
 ```  
-Text 입력방식 : <input type="text" name="text" value="text">  
+
 
 #### password
 비밀번호를 입력할 때 사용하는 방식  
 ```html
 <input type="password" name="password" value="password">
 ```  
-비밀번호를 입력하는 방식: <input type="password" name="password" value="password">  
+
 
 #### email
 이메일을 입력할 때 사용하는 방식  
 ```html
 <input type="email" name="email" value="email@emailtest.com">
 ```  
-이메일을  입력하는 방식: <input type="email" name="email" value="email@emailtest.com">
+
 
 #### radio
 라디오버튼을 생성한다.  
@@ -299,8 +294,7 @@ Text 입력방식 : <input type="text" name="text" value="text">
 ```  
 이런식으로 사용해주면 된다.  
 checked: 미리 체크한다는 설정.  
-라디오버튼을 체크하는 방식 <input type="radio" name="fruit" value="사과">사과
-<input type="radio" name="fruit" value="바나나" checked>바나나  
+
 
 #### checkbox
 체크박스버튼을 생성한다.  
@@ -310,22 +304,21 @@ checked: 미리 체크한다는 설정.
 ```  
 이런식으로 사용해주면 된다.  
 checked: 미리 체크한다는 설정.  
-체크박스버튼을 체크하는 방식 <input type="checkbox" name="fruit" value="사과">사과
-<input type="checkbox" name="fruit" value="바나나" checked>바나나
+
 
 #### file
 file을 가져오는 버튼을 생성한다.  
 ```html
 <input type="file" name="file">
 ```  
-파일 불러오기: <input type="file" name="file">  
+
 
 #### submit
 file을 가져오는 버튼을 생성한다.  
 ```html
 <input type="submit" value="버튼이름">
 ```  
-제출: <input type="submit" value="submit버튼">  
+
 
 
  ### select 태그 (form 태그2) 
@@ -339,13 +332,7 @@ file을 가져오는 버튼을 생성한다.
   <option value="four">넷</option>
 </select>
  ```  
- select 태그
-  <select>
-  <option value="one">하나</option>
-  <option value="two">둘</option>
-  <option value="three">셋</option>
-  <option value="four">넷</option>
-</select>   
+
 
 ### textarea태그 (form 태그3) 
 긴 내용을 입력할 때 사용하는 태그이다.  

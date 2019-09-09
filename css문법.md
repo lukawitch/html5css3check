@@ -69,22 +69,13 @@ class는 고유성이 없어서 여러태그에 같은 스타일을 부여할 �
   <div style="width:300px; background-color:#AAA">
 width
 </div> 
-width의 단위
-1.px  
-2.%  
+
 
 ## height
 요소의 높이를 설정할 때 사용한다  
 ```html
 <div style="height:300px; background-color:#AAA">width</div>
 ```
-  <div style="height:300px; background-color:#AAA">
-height
-</div> 
-height의 단위
-1.px  
-2.%  
-
 
  ## color 
 
@@ -107,30 +98,28 @@ color이름은 다양한 방식으로 지정할 수 있다.
 <div style="border-style: none;">테두리없음</div>
 <div style="border-style: groove;">groove</div>
 ```  
-<div style="border-style: solid;">soild</div>
-<div style="border-style: none;">테두리없음</div>
-<div style="border-style: groove;">groove</div>
+
 
 ### Border width
 테두리의 두께를 설정하는 것이다.  
 ```html
 <div style="border-style: solid; border-width: 5px;">soild</div>
 ```  
-<div style="border-style: solid; border-width: 5px;">soild</div>
+
 
 ### Border Color
 테두리의 색깔을 정하는 것이다. 
 ```html
 <div style="border-style: solid; border-width: 5px; border-color:green">soild</div>
 ```  
-<div style="border-style: solid; border-width: 5px; border-color:green">soild</div>  
+
 
 ### border-radius
 border를 얼마나 round하게 할지 정하는 것이다.  
 ```html
 <div style="border-style: solid; border-width: 5px; border-color:green; border-radius: 15px;">soild</div>
 ```  
-<div style="border-style: solid; border-width: 5px; border-color:green; border-radius: 15px;">soild</div>
+
 
 ### 위의 요소를 간단하게 줄이기
 저렇게 하나하나말고 한번에 간단하게 줄 수 도 있다.  
@@ -138,7 +127,7 @@ border를 얼마나 round하게 할지 정하는 것이다.
 ```html
 <div style="border: solid 5px green; border-radius: 15px;">soild</div>
 ```  
-<div style="border: solid 5px green;  border-radius: 15px;">soild</div>
+
 
 ## margin,padding
 margin:바깥쪽의 여백을 지정하는 요소이다.  
@@ -149,23 +138,18 @@ margin하고 padding 사용법은 같다.
 <div style="width:100px; height:100px; background-color:pink"></div>  
 </div>  
 ```  
-<div style="margin-top:60px; margin-left: 80px; margin-right: 150px;   margin-bottom: 100px;  padding-top:60px; padding-left: 80px; padding-right: 150px;   padding-bottom: 100px;  width:200px; height:200px; background-color:pink">
-<div style="width:100px; height:100px; background-color:lightblue"></div>  
-</div>  
+
 
 이것을 한번에 지정할 수 도있다
 ** 순서는시계방향(위 오른쪽 아래 왼쪽)으로 설정하면 된다. **  
 ```html
 <div style="margin: 75px 50px 75px 100px; padding: 75px 50px 75px 30px; width:200px; height:200px; background-color:pink"><div style="width:100px; height:100px; background-color:lightblue"></div>  </div> 
 ```
-<div style="margin: 75px 50px 75px 100px; padding: 75px 50px 75px 30px; width:200px; height:200px; background-color:pink"><div style="width:100px; height:100px; background-color:lightblue"></div>  </div> 
 margin:auto를하면 가운데 정렬이 가능하다.   
 
 ```html
 <div style="margin:auto; width:200px; height:200px; background-color:pink"></div> 
 ```  
-
-<div style="margin:auto;  width:200px; height:200px; background-color:pink"></div> 
 margin:0,auto는 위아래 margin을 0으로 주고 양옆에 auto를 준다는 의미이다.   
 padding은 auto가 적용되지 않습니다.  
 
@@ -173,8 +157,6 @@ padding은 auto가 적용되지 않습니다.
 <div style="margin:0 auto; width:200px; height:200px; background-color:pink"></div> 
 ```  
 
-<div style="margin:0 auto; padding:10px; width:200px; height:200px; background-color:pink">
-<div style="width:100px; height:100px; background-color:lightblue"></div></div> 
 
 ## position 
 요소의 위치를 나타내 주는것을 말한다.  
@@ -183,7 +165,7 @@ position의 기본값, 우리가 보는 흔한 위치값이다.
 ```html
 <div style="position:static;width:200px; height:200px; background-color:pink"></div>
 ```
-<div style="position:static;width:200px; height:200px; background-color:pink"></div>  
+
 
 ### relative
 상대적이며 top,right,botton,left로 위치조정 가능하다.  
@@ -191,8 +173,7 @@ position의 기본값, 우리가 보는 흔한 위치값이다.
 <div style="position:relative;width:200px; height:200px; background-color:pink"></div>
 <div style="position:relative;width:200px; top: -30px; left: 20px; margin-top:-150px;height:200px; background-color:lightblue"></div>
 ```
-<div style="position:relative;width:200px; height:200px; background-color:pink"></div>
-<div style="position:relative;width:200px; top: -30px; left: 20px; margin-top:-150px;height:200px; background-color:lightblue"></div>  
+
 
 ### absolute
 absolute는 static 속성을 가지고 있지 않은 부모를 기준으로 움직입니다.  
@@ -204,10 +185,7 @@ absolute는 static 속성을 가지고 있지 않은 부모를 기준으로 움�
 <div style="position:absolute;  right: 0; width:50px; height:50px; background-color:pink"></div>
 </div>
 ```
-<div style="position:absolute; right:0;width:200px; height:200px; background-color:pink"></div>
-<div style="position:relative;width:200px; height:200px; background-color:lightblue">
-<div style="position:absolute;  right: 0; width:50px; height:50px; background-color:pink"></div>
-</div>
+
 
 
 
@@ -216,7 +194,7 @@ absolute는 static 속성을 가지고 있지 않은 부모를 기준으로 움�
 ```html
 <div style="position:fixed;  bottom: 0;   right: 0;width:20px; height:20px; background-color:pink"></div>
 ```
-<div style="position:fixed;  bottom: 0;   right: 0; width:20px; height:20px; background-color:pink"></div>
+
 
 ## display
 내용을 보여줄지 말지, 보여주면 어떤식으로 보여줄지 결정하는 요소이다.  
@@ -226,13 +204,13 @@ absolute는 static 속성을 가지고 있지 않은 부모를 기준으로 움�
 ```html
 <div style="display:none; width:100px; height:100px; background-color:pink"></div>
 ```
-<div style="display:none; width:100px; height:100px; background-color:pink"></div>   
+
 => 자매품으로 visibility:hidden이 있는데 이 두속성은 차이가 있다.  
 
 ```html
 <div style="visibility:hidden; width:100px; height:100px; background-color:pink"></div>
 ```    
-<div style="visibility:hidden; width:100px; height:100px; background-color:pink"></div>  
+
  visibility:hidden은 공간까지 숨겨주지않고 공간은 남겨져있지만  
  display:none은 공간까지 숨겨준다.  
 
@@ -244,9 +222,6 @@ div에다가 크기를 주면 적용이 안되는거 같으니 그것은 주의
 <div style="display:inline">inline2</div>
 ```  
 
-<div style="display:inline">inline1</div>
-<div style="display:inline">inline2</div>  
-
 ### display:block
 block방식으로 나열한다는 속성이다.  
 ```html
@@ -254,8 +229,6 @@ block방식으로 나열한다는 속성이다.
 <span style="display:block">block2</span>
 ```  
 
-<span style="display:block">block1</span>
-<span style="display:block">block2</span>
 
 ## float
 float는 정렬하는 속성이다.  
@@ -269,9 +242,7 @@ HTML CSS JAVASCRIPT REACT ANGULR VUE SPRING PYTHON LINUX C C++ C# GO JAVA PHP R 
 ASSEMBLY ASP PORTLAN COBOL SWIFT RUBY SCALA PERL MATRAB HTML CSS JAVASCRIPT REACT ANGULR VUE SPRING PYTHON LINUX C C++ C# GO JAVA PHP R VISULA BASIC ASSEMBLY ASP PORTLAN COBOL SWIFT RUBY SCALA PERL MATRAB <</p>
 ```  
 
-<p><div style="float:left; width:100px; height:100px; background-color:pink"></div>
-HTML CSS JAVASCRIPT REACT ANGULR VUE SPRING PYTHON LINUX C C++ C# GO JAVA PHP R VISULA BASIC
-ASSEMBLY ASP PORTLAN COBOL SWIFT RUBY SCALA PERL MATRAB HTML CSS JAVASCRIPT REACT ANGULR VUE SPRING PYTHON LINUX C C++ C# GO JAVA PHP R VISULA BASIC ASSEMBLY ASP PORTLAN COBOL SWIFT RUBY SCALA PERL MATRAB <</p>  
+
 
 ### float:right
 요소를 오른쪽에다가 배치하는 속성이다  
@@ -282,9 +253,6 @@ HTML CSS JAVASCRIPT REACT ANGULR VUE SPRING PYTHON LINUX C C++ C# GO JAVA PHP R 
 ASSEMBLY ASP PORTLAN COBOL SWIFT RUBY SCALA PERL MATRAB HTML CSS JAVASCRIPT REACT ANGULR VUE SPRING PYTHON LINUX C C++ C# GO JAVA PHP R VISULA BASIC ASSEMBLY ASP PORTLAN COBOL SWIFT RUBY SCALA PERL MATRAB <</p>
 ```  
 
-<p><div style="float:right; width:100px; height:100px; background-color:pink"></div>
-HTML CSS JAVASCRIPT REACT ANGULR VUE SPRING PYTHON LINUX C C++ C# GO JAVA PHP R VISULA BASIC
-ASSEMBLY ASP PORTLAN COBOL SWIFT RUBY SCALA PERL MATRAB HTML CSS JAVASCRIPT REACT ANGULR VUE SPRING PYTHON LINUX C C++ C# GO JAVA PHP R VISULA BASIC ASSEMBLY ASP PORTLAN COBOL SWIFT RUBY SCALA PERL MATRAB <</p>  
 
 ### clear
 float속성을 해제하는 속성이다.  
@@ -292,8 +260,7 @@ float속성을 해제하는 속성이다.
 <div style="float:left; width:100px; height:100px; background-color:pink"></div>
 <div style="clear:left ; width:100px; height:100px; background-color:lightblue"></div>
 ```
-<div style="float:left; width:100px; height:100px; background-color:pink"></div>
-<div style="clear:left ; width:100px; height:100px; background-color:lightblue"></div>
+
 
 ## ALIGN
 정렬하는 속성이다, 이전에다룬 margin:auto와 후에 다룰 text-center는 따로 다루지 않겠다.  
@@ -304,7 +271,6 @@ float속성을 해제하는 속성이다.
 <img src="./test.jpg" style="  display: block; margin-left: auto; margin-right: auto; width:40%">
 ```
 
-<img src="./test.jpg" style="  display: block; margin-left: auto; margin-right: auto; width:40%">  
 
 ### 글자 세로 정렬 
 이건 따로 없고 padding으로 수치를 조절하면 된다. 
@@ -312,7 +278,7 @@ float속성을 해제하는 속성이다.
 <div style="padding: 70px 0; border: 3px solid green;">글자 수직정렬</div>
 ```
 
-<div style="padding: 70px 0; border: 3px solid green;">글자 수직정렬</div>  
+
 
 ### 요소 정중앙 정렬
 
@@ -331,17 +297,6 @@ height:100px; width:100px; border: 3px solid green; "></div>
 </div>
 ```
 
-<div style=" height: 200px;
-width: 200px;
-  position: relative;
-  border: 3px solid green; ">
-  <div style=" margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-height:100px; width:100px; border: 3px solid green; "></div></div>  
 이런식으로 해주면 된다.  
 
 
@@ -354,9 +309,7 @@ height:100px; width:100px; border: 3px solid green; "></div></div>
  background-color
 </div>
  ```  
-  <div style="background-color:pink">
- background-color
-</div>  
+
 
 ### background-image 
  배경화면의 이미지를 결정해주는 요소이다
@@ -365,16 +318,14 @@ height:100px; width:100px; border: 3px solid green; "></div></div>
  background-color
 </div>
  ```  
- <div style="background-image :url('./test.jpg'); height:300px">
- background-color
-</div>  
+  
 
 ### background-size
 배경화면의 사이즈를 결정해준다  
 ```html
 <div style="background-image :url('./test.jpg'); height:300px; background-size:300px;"></div>
 ```  
-<div style="background-image :url('./test.jpg'); height:300px; background-size:300px;"></div>
+
 
 ### background-repeat 
 배경을반복해서 보여줄지 아닐지를 결정해주는것이다.  
@@ -382,19 +333,18 @@ height:100px; width:100px; border: 3px solid green; "></div></div>
 ```html
 <div style="background-image :url('./test.jpg'); height:300px; background-size:300px; background-repeat:no-repeat"></div>
 ```  
- <div style="background-image :url('./test.jpg'); height:300px; background-size:300px; background-repeat:no-repeat"></div>  
+
  
 좌우로만 반복하게 설정한 경우  
 ```html
    <div style="background-image :url('./test.jpg'); height:300px; background-size:300px; background-repeat: repeat-x"></div>
  ```
-  <div style="background-image :url('./test.jpg'); height:300px; background-size:300px; background-repeat: repeat-x"></div>  
+
 
 위아래로만 반복되게 설정한 경우  
 ```html
    <div style="background-image :url('./test.jpg'); height:300px; background-size:300px; background-repeat: repeat-y"></div>
 ```  
-   <div style="background-image :url('./test.jpg'); height:300px; background-size:300px; background-repeat: repeat-y"></div>  
 
 
  ### background-position
@@ -402,14 +352,13 @@ height:100px; width:100px; border: 3px solid green; "></div></div>
 ```html
  <div style="background-image :url('./test.jpg'); height:300px; background-size:300px; background-repeat:no-repeat;background-position: right top; "></div>   
 ```  
-<div style="background-image :url('./test.jpg'); height:300px; background-size:300px; background-repeat:no-repeat;background-position: right top; "></div>   
+
 
  ### background
  지금까지 나온 요소를 길게가 아닌 짧게 표현할 수 도 있다.  
  ```html
  <div style="background:url('./test.jpg') 300px no-repeat right top; height:300px; background-size:300px;"></div> 
  ```  
-  <div style="background:url('./test.jpg') no-repeat right top; height:300px; background-size:300px;"></div> 
 
   ## TEXT
   글자에 관한 설정을 하는 요소이다.
@@ -434,19 +383,19 @@ center
 ```html
 <div style="text-align:center">Center</div>
 ```  
-<div style="text-align:center">Center</div>  
+
 
 left
 ```html
 <div style="text-align:left">left</div>
 ```  
-<div style="text-align:left">left</div>  
+
 
 right
 ```html
 <div style="text-align:right">right</div>
 ```  
-<div style="text-align:right">right</div>  
+
 
 ## font
 font에 관한 설정을 하는 CSS이다.  
@@ -456,14 +405,14 @@ font에 관한 설정을 하는 CSS이다.
 ```html
 <div style="font-family: 'Lucida Console';">test</div>
 ```  
-<div style="font-family: 'Lucida Console';">test</div>  
+
 
 ### font-size  
 폰트의 크기를 결정하는 것이다.  
 ```html
 <div style="font-size: 30px;">test</div>
 ```  
-<div style="font-size: 30px;">test</div>  
+
 폰트단위<br>
 1.px:픽셀로 측정한 폰트크기,크기가 고정적임.(주로 컴퓨터에서 사용이됨.)<br>
 2.pt:흔히 아는 폰트크기,크기가 상대적임(주로 인쇄매체에서 사용이됨)<br>
