@@ -9,43 +9,24 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script>
-   function add(){
-                var todo=document.getElementById("doit").value;
-                var list= document.getElementById("list");
-               var li=document.createElement(li);
-               //var add="<span class='text'>"+todo+"</span><span class='del'>X</span>"
-               list.innerHTML=list.innerHTML+" <li id='del"+list.getElementsByTagName("li").length+"'><span class='text'>"+todo+"</span><span class='del' onclick='del("+list.getElementsByTagName("li").length+")'>X</span></li>";
-
-               // list.innerHTML=list.innerHTML+" <li ></span>";
-
-          }
-       
-       function del(num){
-           var a="del"+num;
-           var li=document.getElementById(a);
-           li.style.display="none";
-
-       }
-
-        </script>
+     <script src="./js/index.js"></script>
     </head>
     
     <body>
         
-        <div class="formbackground">
+        <div class="formbackground" >
             <header>
                 <div class="todo">TODO</div>
             </header>
-            <section>
+            <section style="height:50%;">
                <div style=" height:30%;">
                     <input type="text" id="doit">
                     <div class="ADD" onclick="add()">ADD</div>
                </div>
 
-                <br>
+           
                 
-                <article style="clear: both; ">
+                <article style="clear: both;height:100%; overflow: auto;" >
                     <ul id="list">
                     </ul>
                 </article>
