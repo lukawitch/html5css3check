@@ -1,6 +1,5 @@
-CSS문법은 여기로 [css](./css문법.md)
+﻿CSS문법은 여기로 [css](./css문법.md)
 
- <!-- HTML과 CSS의 기본문법과 반응형 레이아웃 그리고 TODO앱까지 내일까지 진행 -->
  # HTML 문법
  ## HTML5 설정
  html5를 사용하려면 문구 제일 위에다가 
