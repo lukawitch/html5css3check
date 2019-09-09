@@ -66,9 +66,6 @@ class는 고유성이 없어서 여러태그에 같은 스타일을 부여할 �
 ```html
 <div style="width:300px; background-color:#AAA">width</div>
 ```
-  <div style="width:300px; background-color:#AAA">
-width
-</div> 
 
 
 ## height
